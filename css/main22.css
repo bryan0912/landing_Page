@@ -4,13 +4,16 @@ header {
   color: black;
   font-family: 'Exo 2', sans-serif;
   padding: 1em;
-  width: 100%
+  width: 100%;
+  
+  
   
 }
 
 
 body {
     font-family: sans-serif;
+   
    
 }
 
@@ -55,11 +58,13 @@ section {
   line-height: 400px;
   font-size: 14px;
   
+  
 }
 
 .flex-container {
   display: flex;
   justify-content: center;
+  text-decoration: none;
  
 }
 
@@ -81,6 +86,8 @@ footer {
   background-color: white;
   padding: 2em;
   color: black;
+  justify-content: center;
+  align-items: center;
 }
 
 footer ul {
@@ -90,4 +97,5 @@ footer ul {
 footer li {
   display: inline;
   padding: 2em;
+  
 }
